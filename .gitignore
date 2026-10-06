@@ -1,0 +1,31 @@
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated Foundry inventory and test artifacts
+inventory/
+artifacts/
+
+# Secret-like files and local configuration
+*.key
+*.pem
+*.pfx
+*.p12
+*.secret
+*.credentials
+secrets/
+
+# OS/editor files
+.DS_Store
+.vscode/
+.idea/
